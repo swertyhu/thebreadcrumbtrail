@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(207, 81, 42) !important;
+}
+h1 {
+    font-size: 80 !important;
+    color: rgb(201, 175, 166);
+}
+h1:hover{
+    font-size: 80 !important;
+    color: rgb(255, 255, 255);
+}
