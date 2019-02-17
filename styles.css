@@ -1,12 +1,11 @@
 body {
     background-color: rgb(51, 29, 29) !important;
-    opacity: 1;
 }
 .center {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     vertical-align: middle;
@@ -29,6 +28,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    float: right;
 }
 .btn1:hover{
     color:rgb(255, 255, 255);
@@ -42,19 +42,26 @@ body {
     margin-right: 20px;
     margin-top: 20px;
 }
-.info-page1{
+.background1{
     background-color: rgb(255, 255, 255);
     color:rgb(51, 29, 29) !important;
     position: relative;
-    top: 80vh;
-    min-height: 500px;
+    top: 100vh;
+    min-height: 150vh;
     display: block;
+    text-align: center;
 }
-.info-page2{
-    background-color: rgb(255, 255, 255);
-    color:rgb(51, 29, 29) !important;
+.background2{
+    background-color: rgb(51, 29, 29) !important;
+    color:rgb(255, 255, 255);
     position: relative;
-    top: 80vh;
-    min-height: 500px;
-    display: none;
+    top: 100vh;
+    min-height: 150vh;
+    display: block;
+    text-align: center;
+}
+.text-files{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
